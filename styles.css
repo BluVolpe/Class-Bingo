@@ -34,7 +34,7 @@ body {
   #bingo-background {
     position: absolute;
     width: 95vmin; /* Ensure the background is slightly larger */
-    height: 98vmin; /* Ensure the background is slightly larger */
+    height: 95vmin; /* Ensure the background is slightly larger */
     max-width: 540px; /* Max width for the background */
     max-height: 540px; /* Max height for the background */
     background: white;
@@ -45,13 +45,12 @@ body {
   
   #bingo-card-container {
     position: relative;
-    width: 92vmin; /* Ensure the card container is slightly larger */
-    height: 92vmin; /* Ensure the card container is slightly larger */
+    width: 90vmin; /* Ensure the card container is slightly larger */
+    height: vmin; /* Ensure the card container is slightly larger */
     max-width: 520px; /* Max width for the card container */
     max-height: 520px; /* Max height for the card container */
     background: rgba(255, 255, 255, 0);
-    border-radius: 0px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
     display: flex;
     align-items: center;
     justify-content: center;
